@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Map</title>
+</head>
+<body>
+    <h1>India Map</h1>
+    <p>Click on West Bengal or Bihar to see their detailed maps.</p>
+
+    <img src="india-map.png" usemap="#india-map" alt="India Map" width="800">
+
+    <map name="india-map">
+        <!-- West Bengal area: arbitrary polygon coordinates -->
+        <area shape="poly" coords="300,200,320,250,350,250,360,220" href="west-bengal-detail.html" alt="West Bengal">
+        
+        <!-- Bihar area: arbitrary polygon coordinates -->
+        <area shape="poly" coords="400,300,430,350,460,350,470,320" href="bihar-detail.html" alt="Bihar">
+    </map>
+</body>
+</html>
